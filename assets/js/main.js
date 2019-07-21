@@ -36,10 +36,11 @@ $(function() {
 				baseZIndex: 10001,
 				useBodyOverflow: false,
 				usePopupEasyClose: true,
+				usePopupCaption: true,
 				overlayColor: '#000000',
 				overlayOpacity: 0.75,
 				popupLoaderText: '',
-				fadeSpeed: 500,
+				fadeSpeed: 300,
 				usePopupDefaultStyling: false,
 				windowMargin: (skel.breakpoint('small').active ? 5 : 50)
 			});
