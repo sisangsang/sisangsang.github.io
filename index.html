@@ -12,10 +12,12 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/main2.css" />
 		<link rel="stylesheet" href="assets/css/hover.css" />
+		<link rel="stylesheet" href="assets/css/checkbox.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<meta name="naver-site-verification" content="5bfe3af4da8fd7c3141e4a4eebf179a0cdb7ddf6"/>
 		<meta name="google-site-verification" content="Alyeq-YsbqeOpMLM-lk1pw0KNvV47mpMRtjUStyACcs" />
-
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
 	</head>
 	<body>
 		<!-- Wrapper -->
@@ -39,6 +41,21 @@
 
 				<!-- Main -->
 					<section id="main">
+						<article class="thumb">
+							<div class="image2 ulcontainer" style="background-image: url('images/test_images/01.jpg');">
+								<ul class="ks-cboxtags" style="height:100%; position:absolute; top:100%;">
+									<li>
+										<input type="checkbox" id="checkboxOne" value="하늘">
+										<label for="checkboxOne">하늘</label>
+									</li>
+									<li>
+										<input type="checkbox" id="checkboxTwo" value="맑다">
+										<label for="checkboxTwo">맑다</label>
+									</li>
+								</ul>
+							</div>
+						</article>
+
 						<article class="thumb">
 							<a href="images/test_images/01.jpg" class="image"><img src="images/test_images/01.jpg" alt="" /></a>
 							<h2>하늘</h2>
@@ -79,14 +96,24 @@
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/main2.js"></script>
+			<!-- <script src="assets/js/main2.js"></script> -->
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
+			<!-- <script src="assets/js/util.js"></script> -->
 			<script src="assets/js/main.js"></script>
 			<script type="text/javascript">
 				document.formagent.target="aList";
 				document.formagent.submit();
 			</script>
+			<!-- <script type="text/javascript">
+				function myFunction(divname) {
+				  var x = document.getElementById(divname);
+				  if (x.style.display === "none") {
+				    x.style.display = "block";
+				  } else {
+				    x.style.display = "none";
+				  }
+				}
+			</script> -->
 	</body>
 </html>

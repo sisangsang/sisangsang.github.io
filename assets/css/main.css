@@ -656,7 +656,7 @@ input, select, textarea {
 		padding: 0.75em 1em;
 	}
 
-	input[type="checkbox"],
+	/* input[type="checkbox"],
 	input[type="radio"] {
 		-moz-appearance: none;
 		-webkit-appearance: none;
@@ -727,7 +727,7 @@ input, select, textarea {
 
 	input[type="radio"] + label:before {
 		border-radius: 100%;
-	}
+	} */
 
 	::-webkit-input-placeholder {
 		color: #707071 !important;
@@ -801,11 +801,11 @@ input, select, textarea {
 	ul {
 		list-style: disc;
 		margin: 0 0 2em 0;
-		padding-left: 1em;
+		/* padding-left: 1em; */
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			/* padding-left: 0.5em; */
 		}
 
 		ul.alt {
@@ -1478,9 +1478,9 @@ input, select, textarea {
 			pointer-events: auto;
 			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 			opacity: 1;
-			overflow: hidden;
+			/* overflow: hidden; */
 			position: relative;
-			/* margin: 0.25em; */
+			margin-bottom: 3em;
 			border-radius: 4px;
 		}
 
@@ -1498,6 +1498,7 @@ input, select, textarea {
 				position: absolute;
 				top: 0;
 				width: 95%;
+				border-radius: 4px;
 			}
 
 			#main .thumb > .image {
@@ -1511,6 +1512,22 @@ input, select, textarea {
 				position: absolute;
 				top: 0;
 				width: 95%;
+				margin-bottom:10%;
+
+			}
+
+			#main .thumb > .image2 {
+				-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				border: 0;
+				height: 95%;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 95%;
+				border-radius: 4px;
 
 			}
 
